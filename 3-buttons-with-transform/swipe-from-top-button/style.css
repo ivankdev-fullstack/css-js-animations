@@ -1,0 +1,42 @@
+body {
+  font-family: "Roboto", sans-serif;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #222;
+}
+
+button {
+  background: none;
+  padding: 40px 80px;
+  font-size: 40px;
+  border: 3px solid #fff;
+  color: #fff;
+  font-weight: 300;
+  letter-spacing: -2px;
+  transition: all 0.5s;
+  position: relative;
+  overflow: hidden;
+}
+
+button::after {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  content: "YEAH!";
+  width: 0;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 0.5s;
+  transform: translateY(-100%);
+  background-color: red;
+}
+
+button:hover::after {
+  transform: translateY(0);
+}
