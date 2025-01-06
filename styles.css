@@ -1,0 +1,52 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+.container {
+  padding: 0 40px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  padding: 15px 25px;
+}
+
+.topic {
+  border-bottom: 1px solid #cecece;
+}
+
+.subtopic {
+  margin-left: 25px;
+  padding: 5px 20px;
+}
+
+ul a {
+  font-size: 18px;
+  color: #555;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 10px 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+ul a:hover {
+  background-color: #4caf50;
+  color: white;
+}
+
+ul a:active {
+  background-color: #388e3c;
+}
